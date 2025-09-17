@@ -35,9 +35,7 @@ let package = Package(
                   "-Wno-unused-function",
                   "-Wno-long-long",
                   "-Wno-overlength-strings"
-                ]),
-                .unsafeFlags(["-O3"], .when(configuration: .release)),
-                .unsafeFlags(["-fno-strict-aliasing"], .when(configuration: .release))
+                ])
               ]
         )
     ]

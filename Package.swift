@@ -34,7 +34,8 @@ let package = Package(
                   "-Wno-conditional-uninitialized",
                   "-Wno-unused-function",
                   "-Wno-long-long",
-                  "-Wno-overlength-strings"
+                  "-Wno-overlength-strings",
+                  "-O3"
                 ])
               ]
         )
